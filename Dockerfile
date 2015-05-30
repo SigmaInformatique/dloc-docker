@@ -24,7 +24,7 @@
 #
 
 FROM google/dart
-MAINTAINER Sigma Informatique Team <open@sigma.fr>
+MAINTAINER Sigma Informatique Team <github@sigma.fr>
 
 ENV PATH $PATH:/root/.pub-cache/bin
 RUN pub global activate dloc
