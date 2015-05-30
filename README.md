@@ -22,7 +22,7 @@ It will mount the directory `your directory` on the host as `/code` inside the c
 docker run -it --rm sigmainformatique/dloc
 ```
 
-* To count lines of code in the current directory
+* To count lines of code in the current directory:
 
 ```
 docker run -it --rm -v $(pwd):/code/ sigmainformatique/dloc .
